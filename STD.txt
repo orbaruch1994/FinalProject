@@ -1,0 +1,58 @@
+STD - 
+
+1. Login Test :
+
+a. Login with incorrect details
+b. Login with correct details
+c. logout
+
+expected result - return to home page with menu title - "Login or Register"
+------------------
+
+2. Buy Product Test :
+
+a. Login
+b. Choose Category
+c. Add product to cart with quantity - 3 
+d. Return to category and add another product
+e. Checkout
+f. Confirm order
+
+expected result - purchase success and sending mail
+------------------
+
+3. Update cart details :
+
+a. Login
+b. Choose Category
+c. Add product to cart with quantity - 3
+d. Return to category and add another product
+e. Go to Cart
+f. Change quantity of the products
+g. Remove one product
+h. Click update
+
+expected result - cart updated with new details
+------------------
+
+4. Search and Buy Test :
+
+a. Login
+b. Search product from search field
+c. Choose Product
+d. Add to cart
+e. Checkout
+f. Confirm order
+
+expected result - purchase success and sending mail
+------------------
+
+5. Home Page Purchase :
+
+a. Choose product from home page
+b. Add to cart
+c. Continue shopping
+d. Go to Home Page
+e. Add product to the cart from Home Page
+f. CheckOut
+g. Confirm order
