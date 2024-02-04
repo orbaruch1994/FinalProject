@@ -22,11 +22,7 @@ public class CheckoutPage extends BasePage{
 	
 	//Validation
 	public int numberOfItems() {
-		int i = 0;
-		for (@SuppressWarnings("unused") WebElement item : checkList) {
-			i += 1;
-		}
-		return i;
+		return checkList.size();
 	}	
 
 }
