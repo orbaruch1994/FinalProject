@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 public class ProductsPage extends BasePage{
 	@FindBy(css="[href='https://automationteststore.com/index.php?rt=product/category&path=49']")
 	private WebElement fregrenceBtn;
-	@FindBy(css="#maincontainer > div > div > div > div > ul > li:nth-child(1) > div > a")
+	@FindBy(css=".mt10.align_center>a:nth-child(1)")
 	private WebElement menBtn;
 	@FindBy(css=".col-md-3.col-sm-6.col-xs-12")
 	private List<WebElement> itemsList;
