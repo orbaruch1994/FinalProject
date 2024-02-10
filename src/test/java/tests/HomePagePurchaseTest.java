@@ -30,7 +30,7 @@ public class HomePagePurchaseTest extends BaseTest {
 	@Test(description = "Click on Confirm Order to end the purchase")
 	public void tc03_confirmOrder() {
 		checkoutPage.clickConfirm();
-		String expected = "CHECKOUT CONFIRMATION";
+		String expected = "YOUR ORDER HAS BEEN PROCESSED!";
 		String actual = confirmedPage.confirmedMsg();
 		Assert.assertEquals(actual, expected);
 	}
