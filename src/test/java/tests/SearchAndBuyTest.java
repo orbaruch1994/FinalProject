@@ -34,7 +34,7 @@ public class SearchAndBuyTest extends BaseTest {
 	@Test(description = "Click on Confirm Order to end the purchase")
 	public void tc04_confirmOrder() {
 		checkoutPage.clickConfirm();
-		String expected = "CHECKOUT CONFIRMATION";
+		String expected = "YOUR ORDER HAS BEEN PROCESSED!";
 		String actual = confirmedPage.confirmedMsg();
 		Assert.assertEquals(actual, expected);
 	}
