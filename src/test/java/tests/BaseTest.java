@@ -29,7 +29,7 @@ public class BaseTest {
 	
 	@BeforeClass
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\bin\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://automationteststore.com/");
